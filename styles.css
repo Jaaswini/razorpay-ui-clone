@@ -1,0 +1,22 @@
+.feature{
+    background-size: 100% 80%;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+.scroll-anim{
+    animation:7s linear infinite scroll-anim ;
+}
+@keyframes scroll-anim {
+    0% {
+            top:0%;
+    }
+    100%{
+        top:-160%;
+    }
+}
+.featureCard{
+    box-shadow: 2px 4px 9px 1px hsl(0deg 0% 0% / 5%);
+}
+.cta{
+    background-size: 100% 100%;
+}
